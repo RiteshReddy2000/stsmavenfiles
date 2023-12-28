@@ -23,7 +23,7 @@ public class App {
 			while(rs.next()) {
 				str=rs.getString(1)+" "+rs.getString(2)+" "+rs.getString(3);
 				System.out.println(str);
-			}
+			}  
 		}
 		catch(Exception e) {
 			System.out.println(e);
